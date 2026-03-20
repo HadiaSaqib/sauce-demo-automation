@@ -1,13 +1,5 @@
 
 🚀 Sauce Demo Automation Framework
-
-
-
-
-
-
-
-
 👤 Author
 
 Hadia Saqib
@@ -57,15 +49,15 @@ Empty password
 
 📁 Project Structure
 src
- └── test
-     ├── java
-     │    ├── stepDefinitions
-     │    └── runners
-     └── resources
-          └── features
-               └── login.feature
-pom.xml
+└── test
+    ├── java
+    │   ├── stepDefinitions
+    │   └── runners
+    └── resources
+        └── features
+            └── login.feature
 
+pom.xml
 ⚙️ Prerequisites
 
 Java installed
@@ -83,7 +75,7 @@ ChromeDriver (matching your browser version)
 git clone https://github.com/HadiaSaqib/sauce-demo-automation.git
 2. Open project in IntelliJ IDEA
 
-👉 IntelliJ IDEA
+👉 Use IntelliJ IDEA
 
 3. Install dependencies
 mvn clean install
@@ -91,7 +83,7 @@ mvn clean install
 
 Run TestRunner.java
 
-Or execute using IntelliJ run button
+OR click Run button in IntelliJ
 
 📊 Reports
 
@@ -99,11 +91,9 @@ Reports are generated in:
 
 target/
 
-Open:
+Open the HTML report:
 
 target/report.html
-
-
 🧠 Concepts Used
 
 BDD (Behavior Driven Development)
@@ -112,16 +102,17 @@ Gherkin Language
 
 Selenium WebDriver
 
-Page Object Model (optional if used)
+Test Automation concepts
 
-Test automation concepts
+Page Object Model (optional)
 
 📌 Future Improvements
 
 Add more test scenarios
 
-Integrate with CI/CD (GitHub Actions / Jenkins)
+Integrate CI/CD (GitHub Actions / Jenkins)
 
 Add cross-browser testing
 
 Integrate with Jira for test management
+
